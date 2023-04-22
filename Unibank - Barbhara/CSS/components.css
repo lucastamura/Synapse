@@ -1,0 +1,21 @@
+.btn{
+    display: inline-block;
+    line-height: 40px;
+    padding: 0px 24px;
+    border-radius: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #818fbf;
+    background-color: white;
+}
+
+.btn-primary{
+    background-color: var(--main-color);
+    color: var(--white-color);
+}
+
+.btn-secondary{
+    background-color: var(--second-color);
+    color: var(--white-color);
+}

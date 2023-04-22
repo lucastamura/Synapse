@@ -1,0 +1,30 @@
+Monoliticos:
+° back-end e front-end juntos.
+° bd pode estar juntos mas é comunmente deixado separado:
+|=======|
+| Front |
+| Back  |
+| BD    |
+|=======|
+	ou
+|=======|
+| Front |	    |====|
+| Back  | ----> | BD | 
+|=======|	    |====|
+
+Desacoplados:
+° mais comum.
+|=======|  API-Rest  |======|	TCP      |====|
+| Front | ---------> | Back | <--------> | BD |
+|=======| <--------- |======|		     |====|
+
+Microserviços:
+|=======|	    |=======|
+| Front | <---> | Back 1|
+|=======|	    |=======|
+    ^
+    |
+    |    
+|=======|
+| Back 2|
+|=======|

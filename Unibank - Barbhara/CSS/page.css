@@ -1,0 +1,66 @@
+.s-hero .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.s-hero .container .text {
+    width: 100%;
+    max-width: 600px;
+}
+
+.s-hero .container .text h5 {
+    display: inline-block;
+    padding: 0px 16px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 31px;
+    /* identical to box height, or 18px */
+    color: #F1BD03;
+    background: rgba(241, 211, 2, 0.06);
+    border-radius: 80px;
+    margin-bottom: 20px;
+}
+
+.s-hero .container .text h5 span {
+    font-size: 18px;
+    margin-left: 8px;
+}
+
+.s-hero .container .text .title {
+    position: relative;
+    margin-bottom: 32px;
+}
+
+.s-hero .container .text .title h1 {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 110%;
+    /* or 70px */
+    color: #0D1644;
+}
+
+.s-hero .container .text .title img {
+    position: absolute;
+    left: -20.54px;
+    bottom: 1.74px;
+    z-index: -1;
+}
+
+.s-hero .container .text p {
+    width: 100%;
+    max-width: 496px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    /* or 36px */
+    letter-spacing: -1px;
+    color: #B0AFB7;
+    margin-bottom: 32px;
+}
